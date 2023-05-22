@@ -19,6 +19,7 @@
     "url": "https://github.com/microsoftedge/edge-devtools-crash-analyzer-support.git",
     "type": "git"
   },
+  "private": false,
   "homepage": "https://github.com/microsoftedge/edge-devtools-crash-analyzer-support",
   "license": "MIT",
   "devDependencies": {
