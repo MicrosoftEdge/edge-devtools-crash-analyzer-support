@@ -15,6 +15,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Microsoft",
+  "repository": {
+    "url": "https://github.com/microsoftedge/edge-devtools-crash-analyzer-support.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/microsoftedge/edge-devtools-crash-analyzer-support",
   "license": "MIT",
   "devDependencies": {
     "ts-loader": "^9.4.2",
