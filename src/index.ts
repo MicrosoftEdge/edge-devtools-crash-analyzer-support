@@ -59,7 +59,7 @@ function prepareStackTraceWithSourceModules(error: Error, frames: CallSite[]): s
 
   const moduleInformation = collectModuleInformation(frames);
   if (moduleInformation) {
-    return originalStack + '\n' + collectModuleInformation(frames);
+    return originalStack + '\n' + moduleInformation;
   }
 
   return originalStack;
